@@ -1,9 +1,11 @@
-import Landing from '../pages/Landing'
+import Landing from '../pages/Landing2'
 import Profile from '../pages/Profile'
-import AppHeader from '../layouts/AppHeader'
+import AppHeader from '../layouts/AppHeader2'
 import AppFooter from '../layouts/AppFooter'
 import Login from '../pages/Login'
 import Register from '../pages/Register'
+import About from '../pages/About'
+import Media from '../pages/Media'
 
 function page (path) {
   return () => import(/* webpackChunkName: '' */ `~/pages/${path}`).then(m => m.default || m)
@@ -18,6 +20,15 @@ export default [
     components: {
       header: AppHeader,
       default: Landing,
+      footer: AppFooter
+    }
+  },
+  {
+    path: '/about',
+    name: 'about',
+    components: {
+      header: AppHeader,
+      default: About,
       footer: AppFooter
     }
   },
@@ -46,6 +57,15 @@ export default [
       header: AppHeader,
       default: Profile,
       footer: AppFooter
+    }
+  },
+  {
+    path: '/media',
+    name: 'media',
+    components: {
+      header: AppHeader,
+      default: Media
+      // footer: AppFooter
     }
   },
 
