@@ -44,6 +44,7 @@
 
 <script>
 import VueGallery from 'vue-gallery'
+import axios from 'axios'
 
 export default {
 
@@ -78,6 +79,11 @@ export default {
       index: null
     }
   }
+  // mounted () {
+  //   axios
+  //     .get('https://www.googleapis.com/youtube/v3/playlistItems?key=AIzaSyBevXc4OwTS-QpGqwKRTxWnwMgUamKUvw8&part=snippet&playlistId=UUuzT9QGaRilgE2JKbU9cUOA')
+  //     .then(response => console.log(response.items))
+  // }
 }
 </script>
 
