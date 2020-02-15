@@ -34,7 +34,7 @@
                 <p class="description d-none d-md-inline-block mb-0">Get to know us better.</p>
               </div>
             </a>
-            <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+            <a href="/news"
                class="media d-flex align-items-center"
             >
               <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
@@ -60,41 +60,41 @@
         </base-dropdown>
         <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">
           <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
-<!--            <i class="ni ni-single-02 d-lg-none" />-->
-            <i class="fa fa-users d-lg-none"/>
+            <!--            <i class="ni ni-single-02 d-lg-none" />-->
+            <i class="fa fa-users d-lg-none" />
             <span class="nav-link-inner--text">People</span>
           </a>
           <div class="dropdown-menu-inner">
-            <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+            <a href="/leadership"
                class="media d-flex align-items-center"
             >
               <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
                 <i class="ni ni-spaceship" />
-<!--                <i class="fa fa-user-circle d-lg-none"/>-->
+                <!--                <i class="fa fa-user-circle d-lg-none"/>-->
               </div>
               <div class="media-body ml-3">
                 <h6 class="heading text-primary mb-md-1">Leadership</h6>
                 <p class="description d-none d-md-inline-block mb-0">Our leaders keeping us up.</p>
               </div>
             </a>
-            <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+            <a href="/staff"
                class="media d-flex align-items-center"
             >
               <div class="icon icon-shape bg-gradient-default rounded-circle text-white">
-<!--                <i class="ni ni-ui-04" />-->
-                <i class="fa fa-users"/>
+                <!--                <i class="ni ni-ui-04" />-->
+                <i class="fa fa-users" />
               </div>
               <div class="media-body ml-3">
                 <h5 class="heading text-default mb-md-1">Staff</h5>
                 <p class="description d-none d-md-inline-block mb-0">The backbones of our operations.</p>
               </div>
             </a>
-            <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+            <a href="/partners"
                class="media d-flex align-items-center"
             >
               <div class="icon icon-shape bg-gradient-info rounded-circle text-white">
-<!--                <i class="ni ni-ui-04" />-->
-                <i class="fa fa-handshake-o"/>
+                <!--                <i class="ni ni-ui-04" />-->
+                <i class="fa fa-handshake-o" />
               </div>
               <div class="media-body ml-3">
                 <h5 class="heading text-info mb-md-1">Partners</h5>
@@ -103,12 +103,12 @@
             </a>
           </div>
         </base-dropdown>
-<!--        <div class="nav-item">-->
-<!--          <a slot="title" href="/contact" class="nav-link" role="button">-->
-<!--            <i class="ni ni-ui-04 d-lg-none" />-->
-<!--            <span>Contact</span>-->
-<!--          </a>-->
-<!--        </div>-->
+        <!--        <div class="nav-item">-->
+        <!--          <a slot="title" href="/contact" class="nav-link" role="button">-->
+        <!--            <i class="ni ni-ui-04 d-lg-none" />-->
+        <!--            <span>Contact</span>-->
+        <!--          </a>-->
+        <!--        </div>-->
       </ul>
       <ul class="navbar-nav align-items-lg-center ml-lg-auto">
         <li class="nav-item">
@@ -159,16 +159,16 @@
             <span class="nav-link-inner--text d-lg-none">Telegram</span>
           </a>
         </li>
-<!--        <li class="nav-item d-none d-lg-block ml-lg-4">-->
-<!--          <a href="https://www.creative-tim.com/product/vue-argon-design-system" target="_blank" rel="noopener"-->
-<!--             class="btn btn-neutral btn-icon"-->
-<!--          >-->
-<!--            <span class="btn-inner&#45;&#45;icon">-->
-<!--              <i class="fa fa-cloud-download mr-2" />-->
-<!--            </span>-->
-<!--            <span class="nav-link-inner&#45;&#45;text">Donate</span>-->
-<!--          </a>-->
-<!--        </li>-->
+        <!--        <li class="nav-item d-none d-lg-block ml-lg-4">-->
+        <!--          <a href="https://www.creative-tim.com/product/vue-argon-design-system" target="_blank" rel="noopener"-->
+        <!--             class="btn btn-neutral btn-icon"-->
+        <!--          >-->
+        <!--            <span class="btn-inner&#45;&#45;icon">-->
+        <!--              <i class="fa fa-cloud-download mr-2" />-->
+        <!--            </span>-->
+        <!--            <span class="nav-link-inner&#45;&#45;text">Donate</span>-->
+        <!--          </a>-->
+        <!--        </li>-->
       </ul>
     </base-nav>
   </header>

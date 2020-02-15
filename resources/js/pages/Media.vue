@@ -1,8 +1,7 @@
 <template>
   <div>
-    <section class="section-shaped my-0">
-      <div class="shape shape-style-1 shape-primary">
-        <span />
+    <section class="section section-shaped section-lg my-0 py-5">
+      <div class="shape shape-style-1 bg-gradient-primary">
         <span />
         <span />
         <span />
@@ -12,20 +11,27 @@
         <span />
         <span />
       </div>
-      <div class="container shape-container d-flex">
-        <div class="col px-0 my-5">
-          <div class="row">
-            <div class="col-lg-8">
-              <h1 class="display-3  text-white">
-                Media
-              </h1>
-            </div>
-          </div>
+      <div class="container pt-lg-md">
+        <div class="row justify-content-center">
+          <h1 class="text-white font-weight-light">
+            Media
+          </h1>
         </div>
       </div>
     </section>
     <div class="container py-5">
-      <h3>Check out our Youtube Channel</h3>
+      <div class="row mb-4">
+        <div class="col-8">
+          <h3 class="font-weight-light">Check out our Youtube Channel</h3>
+        </div>
+        <div class="col-4">
+          <base-button tag="a" href="https://www.youtube.com/channel/UCuzT9QGaRilgE2JKbU9cUOA"
+                       class="mb-3 mb-sm-0 btn-sm float-right" type="danger" icon="fa fa-youtube-play"
+          >
+            Subscribe
+          </base-button>
+        </div>
+      </div>
       <gallery
         :images="images"
         :index="index"
@@ -33,11 +39,11 @@
         @close="index = null"
       />
       <div
-        class="image"
         v-for="image, imageIndex in images"
+        class="image"
+        :style="{ backgroundImage: 'url(' + image.poster + ')', width: '32.3%', height: '175px' }"
         @click="index = imageIndex"
-        :style="{ backgroundImage: 'url(' + image.poster + ')', width: '32%', height: '175px' }"
-      ></div>
+      />
     </div>
   </div>
 </template>

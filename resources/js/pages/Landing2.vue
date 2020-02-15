@@ -3,7 +3,7 @@
     <div class="position-relative">
       <!-- shape Hero -->
       <section class="section-shaped my-0">
-        <div class="shape shape-style-1 shape-primary shape-skew">
+        <div class="shape shape-style-1 bg-gradient-primary shape-skew">
           <span />
           <span />
           <span />
@@ -18,8 +18,8 @@
           <div class="col px-0">
             <div class="row">
               <div class="col-lg-8">
-                <h1 class="display-3  text-white">
-                  STEM POWER
+                <h1 class="display-2 text-white font-weight-light">
+                  Stem Power
                   <span />
                 </h1>
                 <p class="lead text-white">
@@ -51,78 +51,42 @@
             <div class="row row-grid">
               <div class="col-lg-4 mt--200">
                 <card class="border-0" hover shadow body-classes="py-5">
-                  <icon name="ni ni-check-bold" type="primary" rounded class="mb-4" />
+                  <icon name="ni ni-badge" type="primary" rounded class="mb-4" />
                   <h6 class="text-primary text-uppercase">
-                    Download Argon
+                    About us
                   </h6>
                   <p class="description mt-3">
-                    Argon is a great free UI package based on Bootstrap 4
-                    that includes the most important components and features.
+                    We believe STEM (Science, Technology, Engineering, and Mathematics) education is important to Africa’s long-term development.
                   </p>
-                  <div>
-                    <badge type="primary" rounded>
-                      design
-                    </badge>
-                    <badge type="primary" rounded>
-                      system
-                    </badge>
-                    <badge type="primary" rounded>
-                      creative
-                    </badge>
-                  </div>
-                  <base-button tag="a" href="#" type="primary" class="mt-4">
+                  <base-button tag="a" href="/about" type="primary" class="mt-4">
                     Learn more
                   </base-button>
                 </card>
               </div>
               <div class="col-lg-4 mt--200">
                 <card class="border-0" hover shadow body-classes="py-5">
-                  <icon name="ni ni-istanbul" type="success" rounded class="mb-4" />
+                  <icon name="ni ni-single-copy-04" type="success" rounded class="mb-4" />
                   <h6 class="text-success text-uppercase">
-                    Build Something
+                    News
                   </h6>
                   <p class="description mt-3">
-                    Argon is a great free UI package based on Bootstrap
-                    4 that includes the most important components and features.
+                    Stay in touch with the latest of Stem Power. Learn about all our recent projects, events, celebrations, places we've been. Perhaps you'll find some of them interesting.
                   </p>
-                  <div>
-                    <badge type="success" rounded>
-                      business
-                    </badge>
-                    <badge type="success" rounded>
-                      vision
-                    </badge>
-                    <badge type="success" rounded>
-                      success
-                    </badge>
-                  </div>
-                  <base-button tag="a" href="#" type="success" class="mt-4">
+                  <base-button tag="a" href="/news" type="success" class="mt-4">
                     Learn more
                   </base-button>
                 </card>
               </div>
               <div class="col-lg-4 mt--200">
                 <card class="border-0" hover shadow body-classes="py-5">
-                  <icon name="ni ni-planet" type="warning" rounded class="mb-4" />
+                  <icon name="ni ni-spaceship" type="warning" rounded class="mb-4" />
                   <h6 class="text-warning text-uppercase">
-                    Prepare Launch
+                    Leaders
                   </h6>
                   <p class="description mt-3">
-                    Argon is a great free UI package based on Bootstrap
-                    4 that includes the most important components and features.
+                    This organization is founded by Mark Gelfand because of a passion for science&engineering, as well as a desire to give forward.
                   </p>
-                  <div>
-                    <badge type="warning" rounded>
-                      marketing
-                    </badge>
-                    <badge type="warning" rounded>
-                      product
-                    </badge>
-                    <badge type="warning" rounded>
-                      launch
-                    </badge>
-                  </div>
-                  <base-button tag="a" href="#" type="warning" class="mt-4">
+                  <base-button tag="a" href="/leadership" type="warning" class="mt-4">
                     Learn more
                   </base-button>
                 </card>
@@ -136,44 +100,31 @@
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6 order-md-2">
-            <img src="img/theme/promo-1.png" class="img-fluid floating">
+            <img src="img/theme/Science-Museum-1.jpg" class="img-fluid floating rounded">
           </div>
           <div class="col-md-6 order-md-1">
             <div class="pr-md-5">
-              <icon name="ni ni-settings-gear-65" class="mb-5" size="lg" type="success" shadow
+              <icon name="ni ni-satisfied" class="mb-5" size="lg" type="success" shadow
                     rounded
               />
-              <h3>Awesome features</h3>
+              <h3>Welcome to Stem Power</h3>
               <p>
-                The kit comes with three pre-built pages to help you get started faster. You can change
-                the text and images and you're good to go.
+                For more than a decade, STEMpower founders have been implementing many successful STEM programs in Ethiopia and nearby countries. Pre-university students learn through our hands-on labs, engaging them towards advanced STEM study and careers. STEM enrichment programs bridge genders and ethnicity, fostering peace and development within and among nations.
               </p>
-              <ul class="list-unstyled mt-5">
-                <li class="py-2">
-                  <div class="d-flex align-items-center">
-                    <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65" />
-                    <h6 class="mb-0">
-                      Carefully crafted components
-                    </h6>
-                  </div>
-                </li>
-                <li class="py-2">
-                  <div class="d-flex align-items-center">
-                    <badge type="success" circle class="mr-3" icon="ni ni-html5" />
-                    <h6 class="mb-0">
-                      Amazing page examples
-                    </h6>
-                  </div>
-                </li>
-                <li class="py-2">
-                  <div class="d-flex align-items-center">
-                    <badge type="success" circle class="mr-3" icon="ni ni-satisfied" />
-                    <h6 class="mb-0">
-                      Super friendly support team
-                    </h6>
-                  </div>
-                </li>
-              </ul>
+              <div>
+                <badge type="success" rounded>
+                  Science
+                </badge>
+                <badge type="success" rounded>
+                  Technology
+                </badge>
+                <badge type="success" rounded>
+                  Engineering
+                </badge>
+                <badge type="success" rounded>
+                  Mathematics
+                </badge>
+              </div>
             </div>
           </div>
         </div>
@@ -184,7 +135,7 @@
         <div class="row row-grid align-items-center">
           <div class="col-md-6">
             <div class="card bg-default shadow border-0">
-              <img v-lazy="'img/theme/img-1-1200x1000.jpg'" class="card-img-top">
+              <img v-lazy="'img/theme/A-girl-in-the-lab.jpg'" class="card-img-top">
               <blockquote class="card-blockquote">
                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
                      class="svg-bg"
@@ -193,12 +144,10 @@
                   <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default" />
                 </svg>
                 <h4 class="display-3 font-weight-bold text-white">
-                  Design System
+                  Our Vision
                 </h4>
                 <p class="lead text-italic text-white">
-                  The Arctic Ocean freezes every winter and much of
-                  the sea-ice then thaws every summer, and that process will continue whatever
-                  happens.
+                  Towards a technologically-developed, economically-independent, and self-sustaining Ethiopia-Africa.
                 </p>
               </blockquote>
             </div>
@@ -207,28 +156,25 @@
             <div class="pl-md-5">
               <icon name="ni ni-settings" class="mb-5" size="lg" type="warning" shadow rounded />
 
-              <h3>Our customers</h3>
+              <h3>Our Tasks</h3>
               <p class="lead">
-                Don't let your uses guess by attaching tooltips and popoves to any element.
-                Just make sure you enable them first via JavaScript.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
               <p>
-                The kit comes with three pre-built pages to help you get started faster. You can change
-                the text and images and you're good to go.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <p>
-                The kit comes with three pre-built pages to help you get started faster. You can change
-                the text and images and you're good to go.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               </p>
-              <a href="#" class="font-weight-bold text-warning mt-5">A beautiful UI Kit for impactful
-                websites</a>
+<!--              <a href="#" class="font-weight-bold text-warning mt-5">A beautiful UI Kit for impactful-->
+<!--                websites</a>-->
             </div>
           </div>
         </div>
       </div>
     </section>
     <section class="section section section-shaped my-0 overflow-hidden">
-      <div class="shape shape-style-1 bg-gradient-warning shape-skew">
+      <div class="shape shape-style-1 bg-gradient-primary shape-skew">
         <span />
         <span />
         <span />
@@ -240,7 +186,7 @@
         <div class="row row-grid align-items-center">
           <div class="col-md-6 order-lg-2 ml-lg-auto">
             <div class="position-relative pl-md-5">
-              <img src="img/ill/ill-2.svg" class="img-center img-fluid">
+              <img src="img/ill/undraw_teaching_f1cm.svg" class="img-center img-fluid">
             </div>
           </div>
           <div class="col-lg-6 order-lg-1">
@@ -252,12 +198,11 @@
               </div>
               <div class="pl-4">
                 <h4 class="display-3 text-white">
-                  Modern Interface
+                  Our Mission
                 </h4>
-                <p class="text-white">
-                  The Arctic Ocean freezes every winter and much of the sea-ice then
-                  thaws every summer, and that process will continue whatever happens.
-                </p>
+<!--                <p class="text-white">-->
+<!--                  We hope to change the country-->
+<!--                </p>-->
               </div>
             </div>
             <card shadow class="shadow-lg--hover mt-5">
@@ -269,13 +214,12 @@
                 </div>
                 <div class="pl-4">
                   <h5 class="title text-success">
-                    Awesome Support
+                    Solving Societal Problems
                   </h5>
                   <p>
-                    The Arctic Ocean freezes every winter and much of the sea-ice then thaws
-                    every summer, and that process will continue whatever happens.
+                    Hands-on lab-based STEM education emphasizes real-world problem-solving, creativity, and skill-building empowering youth to engineer their homeland away from stubborn poverty.
                   </p>
-                  <a href="#" class="text-success">Learn more</a>
+<!--                  <a href="#" class="text-success">Learn more</a>-->
                 </div>
               </div>
             </card>
@@ -288,13 +232,30 @@
                 </div>
                 <div class="pl-4">
                   <h5 class="title text-warning">
-                    Modular Components
+                    Strengthening Nations
                   </h5>
                   <p>
-                    The Arctic Ocean freezes every winter and much of the sea-ice then thaws
-                    every summer, and that process will continue whatever happens.
+                    Engineering skills complete a country's production value chain leading to more exports, less imports, and reduced dependency.
                   </p>
-                  <a href="#" class="text-warning">Learn more</a>
+<!--                  <a href="#" class="text-warning">Learn more</a>-->
+                </div>
+              </div>
+            </card>
+            <card shadow class="shadow-lg--hover mt-5">
+              <div class="d-flex px-3">
+                <div>
+                  <icon name="ni ni-active-40" gradient="danger" color="white" shadow
+                        rounded
+                  />
+                </div>
+                <div class="pl-4">
+                  <h5 class="title text-danger">
+                    Implementing Empowerment
+                  </h5>
+                  <p>
+                    Pre-university STEM enrichment enhances education, competency, innovation, and careers on a national scale that "lifts all boats.
+                  </p>
+<!--                  <a href="#" class="text-warning">Learn more</a>-->
                 </div>
               </div>
             </card>
@@ -418,100 +379,71 @@
         </div>
       </div>
     </section>
-    <section class="section section-lg pt-0">
-      <div class="container">
-        <card gradient="warning"
-              no-body
-              shadow-size="lg"
-              class="border-0"
-        >
-          <div class="p-5">
-            <div class="row align-items-center">
-              <div class="col-lg-8">
-                <h3 class="text-white">
-                  We made website building easier for you.
-                </h3>
-                <p class="lead text-white mt-3">
-                  I will be the leader of a company that ends up being
-                  worth billions of dollars, because I got the answers. I understand culture.
-                </p>
-              </div>
-              <div class="col-lg-3 ml-lg-auto">
-                <base-button tag="a" href="https://www.creative-tim.com/product/vue-argon-design-system"
-                             type="white" block size="lg"
-                >
-                  Download Vue
-                </base-button>
-              </div>
-            </div>
-          </div>
-        </card>
-      </div>
-    </section>
-    <section class="section section-shaped my-0 overflow-hidden">
-      <div class="shape shape-style-3 bg-gradient-default shape-skew">
-        <span />
-        <span />
-        <span />
-        <span />
-      </div>
-      <div class="container pt-lg pb-300">
-        <div class="row text-center justify-content-center">
-          <div class="col-lg-10">
-            <h2 class="display-3 text-white">
-              Build something
-            </h2>
-            <p class="lead text-white">
-              According to the National Oceanic and Atmospheric Administration,
-              Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent
-              tihs year down to low ice.
-            </p>
-          </div>
-        </div>
-        <div class="row row-grid mt-5">
-          <div class="col-lg-4">
-            <icon name="ni ni-settings" size="lg" gradient="white" shadow round color="primary" />
-            <h5 class="text-white mt-3">
-              Building tools
-            </h5>
-            <p class="text-white mt-3">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <icon name="ni ni-ruler-pencil" size="lg" gradient="white" shadow round color="primary" />
-            <h5 class="text-white mt-3">
-              Grow your market
-            </h5>
-            <p class="text-white mt-3">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <icon name="ni ni-atom" size="lg" gradient="white" shadow round color="primary" />
-            <h5 class="text-white mt-3">
-              Launch time
-            </h5>
-            <p class="text-white mt-3">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+<!--    <section class="section section-shaped my-0 overflow-hidden">-->
+<!--      <div class="shape shape-style-3 bg-gradient-default shape-skew">-->
+<!--        <span />-->
+<!--        <span />-->
+<!--        <span />-->
+<!--        <span />-->
+<!--      </div>-->
+<!--      <div class="container pt-lg pb-300">-->
+<!--        <div class="row text-center justify-content-center">-->
+<!--          <div class="col-lg-10">-->
+<!--            <h2 class="display-3 text-white">-->
+<!--              Build something-->
+<!--            </h2>-->
+<!--            <p class="lead text-white">-->
+<!--              According to the National Oceanic and Atmospheric Administration,-->
+<!--              Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent-->
+<!--              tihs year down to low ice.-->
+<!--            </p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="row row-grid mt-5">-->
+<!--          <div class="col-lg-4">-->
+<!--            <icon name="ni ni-settings" size="lg" gradient="white" shadow round color="primary" />-->
+<!--            <h5 class="text-white mt-3">-->
+<!--              Building tools-->
+<!--            </h5>-->
+<!--            <p class="text-white mt-3">-->
+<!--              Some quick example text to build on the card title and make up the-->
+<!--              bulk of the card's content.-->
+<!--            </p>-->
+<!--          </div>-->
+<!--          <div class="col-lg-4">-->
+<!--            <icon name="ni ni-ruler-pencil" size="lg" gradient="white" shadow round color="primary" />-->
+<!--            <h5 class="text-white mt-3">-->
+<!--              Grow your market-->
+<!--            </h5>-->
+<!--            <p class="text-white mt-3">-->
+<!--              Some quick example text to build on the card title and make up the-->
+<!--              bulk of the card's content.-->
+<!--            </p>-->
+<!--          </div>-->
+<!--          <div class="col-lg-4">-->
+<!--            <icon name="ni ni-atom" size="lg" gradient="white" shadow round color="primary" />-->
+<!--            <h5 class="text-white mt-3">-->
+<!--              Launch time-->
+<!--            </h5>-->
+<!--            <p class="text-white mt-3">-->
+<!--              Some quick example text to build on the card title and make up the-->
+<!--              bulk of the card's content.-->
+<!--            </p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
+    <hr class="my-5">
     <section class="section section-lg pt-lg-0 section-contact-us">
       <div class="container">
-        <div class="row justify-content-center mt--300">
+        <div class="row justify-content-center">
           <div class="col-lg-8">
             <card gradient="secondary" shadow body-classes="p-lg-5">
               <h4 class="mb-1">
-                Want to work with us?
+                Contact Stem Power
               </h4>
               <p class="mt-0">
-                Your project is very important to us.
+                Invest in greater access to STEM education!
               </p>
               <base-input class="mt-5"
                           alternative
@@ -527,7 +459,7 @@
                           cols="80" placeholder="Type a message..."
                 />
               </base-input>
-              <base-button type="default" round block size="lg">
+              <base-button type="primary" round block size="lg">
                 Send Message
               </base-button>
             </card>
@@ -539,83 +471,112 @@
       <div class="container">
         <div class="row row-grid justify-content-center">
           <div class="col-lg-8 text-center">
-            <h2 class="display-3">
-              Do you love this awesome
-              <span class="text-success">Design System for Bootstrap 4?</span>
-            </h2>
-            <p class="lead">
-              Cause if you do, it can be yours for FREE. Hit the button below to navigate to
-              Creative Tim where you can find the Design System in HTML. Start a new project or give an
-              old Bootstrap project a new look!
-            </p>
-            <div class="btn-wrapper">
-              <a href="https://www.creative-tim.com/product/vue-argon-design-system"
-                 class="btn btn-primary mb-3 mb-sm-0"
-              >Download Vue</a>
-            </div>
+<!--            <h2 class="display-3">-->
+<!--              Our Partners-->
+<!--              <span class="text-success">Design System for Bootstrap 4?</span>-->
+<!--            </h2>-->
             <div class="text-center">
-              <h4 class="display-4 mb-5 mt-5">
-                Available on these technologies
-              </h4>
+              <h2 class="display-4 mb-5">
+                Our Partners
+              </h2>
               <div class="row justify-content-center">
                 <div class="col-lg-2 col-4">
-                  <a href="https://getbootstrap.com/" target="_blank" data-toggle="tooltip"
-                     data-original-title="Bootstrap 4 - Most popular front-end component library"
+                  <a href="http://www.mcit.gov.et/" target="_blank" data-toggle="tooltip"
+                     data-original-title="Ethiopian Ministry of Innovation and Technology"
                   >
-                    <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg'"
+                    <img v-lazy="'img/brand/partners/mint.jpeg'"
                          class="img-fluid"
                     >
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="https://www.sketchapp.com/" target="_blank" data-toggle="tooltip"
-                     data-original-title="[Coming Soon] Sketch - Digital design toolkit"
+                  <a href="https://mfa.gov.il/" target="_blank" data-toggle="tooltip"
+                     data-original-title="Israel Ministry of Foreign Affairs"
                   >
-                    <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg'"
+                    <img v-lazy="'img/brand/partners/israel-ministry-of-foreign-affairs.jpg'"
                          class="img-fluid opacity-5"
                     >
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="https://www.adobe.com/products/photoshop.html" data-toggle="tooltip"
-                     data-original-title="[Coming Soon] Adobe Photoshop - Software for digital images manipulation"
+                  <a href="https://en.unesco.org/" data-toggle="tooltip"
+                     data-original-title="UNESCO"
                   >
-                    <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg'"
+                    <img v-lazy="'img/brand/partners/unesco.png'"
                          class="img-fluid  opacity-5"
                     >
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="https://vuejs.org/" target="_blank" data-toggle="tooltip"
-                     data-original-title="Vue.js - The progressive javascript framework"
+                  <a href="https://au.int/" target="_blank" data-toggle="tooltip"
+                     data-original-title="African Union"
                   >
-                    <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg'"
+                    <img v-lazy="'img/brand/partners/African-Union.png'"
                          class="img-fluid"
                     >
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="https://angularjs.org/" target="_blank" data-toggle="tooltip"
-                     data-original-title="[Coming Soon] Angular - One framework. Mobile &amp; desktop"
+                  <a href="https://www.technion.ac.il/" target="_blank" data-toggle="tooltip"
+                     data-original-title="Technion - Israel Institute of Technology"
                   >
-                    <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg'"
+                    <img v-lazy="'img/brand/partners/Technion_official_seal.png'"
                          class="img-fluid opacity-5"
                     >
                   </a>
                 </div>
                 <div class="col-lg-2 col-4">
-                  <a href="https://reactjs.org/" target="_blank" data-toggle="tooltip"
-                     data-original-title="[Coming Soon] React - A JavaScript library for building user interfaces"
+                  <a href="https://www.madatech.org.il/" target="_blank" data-toggle="tooltip"
+                     data-original-title="Madatech"
                   >
-                    <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg'"
+                    <img v-lazy="'img/brand/partners/madatech.png'"
                          class="img-fluid opacity-5"
                     >
                   </a>
                 </div>
               </div>
+              <p class="lead">
+                We work in contact with a lot of other organizations that support us.
+              </p>
+              <div class="btn-wrapper">
+                <a href="/partners"
+                   class="btn btn-primary mb-3 mb-sm-0"
+                >See More</a>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="section section-lg pt-0">
+      <div class="container">
+        <card gradient="primary"
+              no-body
+              shadow-size="lg"
+              class="border-0"
+        >
+          <div class="p-5">
+            <div class="row align-items-center">
+              <div class="col-lg-8">
+                <h3 class="text-white font-weight-light">
+                  Make sure you support our cause
+                </h3>
+                <!--                <p class="lead text-white mt-3">-->
+                <!--                  I will be the leader of a company that ends up being-->
+                <!--                  worth billions of dollars, because I got the answers. I understand culture.-->
+                <!--                </p>-->
+              </div>
+              <div class="col-lg-3 ml-lg-auto">
+                <base-button tag="a" href="https://www.paypal.com/donate/?token=LDCiXx5XFTCXaHUzXME70TX4PLriXjTKpSZiVOgpQZPmCBuEmTCUa1Jo8Upf79gdZ_YNom&country.x=US&locale.x=US"
+                             type="white" block
+                >
+                  Donate
+                </base-button>
+              </div>
+            </div>
+          </div>
+        </card>
       </div>
     </section>
   </div>
@@ -623,7 +584,7 @@
 
 <script>
 export default {
-  name: 'Home',
+  name: 'Welcome',
   components: {}
 }
 </script>
