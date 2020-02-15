@@ -31,11 +31,15 @@
                   </p>
                 </blockquote>
                 <div class="btn-wrapper">
-                  <base-button tag="a" href="https://www.paypal.com/donate/?token=LDCiXx5XFTCXaHUzXME70TX4PLriXjTKpSZiVOgpQZPmCBuEmTCUa1Jo8Upf79gdZ_YNom&country.x=US&locale.x=US"
-                               class="mb-3 mb-sm-0" type="white" icon="ni ni-credit-card"
-                  >
-                    Donate
-                  </base-button>
+                  <form id="donate_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="X4BPRP7CL8J6L">
+                    <base-button type="submit" form="donate_form" value="Submit" onclick="document.getElementById('donate_form').submit()"
+                                 class="mb-3 mb-sm-0" icon="ni ni-credit-card"
+                    >
+                      Donate
+                    </base-button>
+                  </form>
                 </div>
               </div>
             </div>
@@ -100,7 +104,7 @@
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6 order-md-2">
-            <img src="img/theme/Science-Museum-1.jpg" class="img-fluid floating rounded">
+            <img src="img/theme/Science-Museum-1.jpg" class="img-fluid floating rounded shadow-lg">
           </div>
           <div class="col-md-6 order-md-1">
             <div class="pr-md-5">
@@ -166,8 +170,8 @@
               <p>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               </p>
-<!--              <a href="#" class="font-weight-bold text-warning mt-5">A beautiful UI Kit for impactful-->
-<!--                websites</a>-->
+              <!--              <a href="#" class="font-weight-bold text-warning mt-5">A beautiful UI Kit for impactful-->
+              <!--                websites</a>-->
             </div>
           </div>
         </div>
@@ -186,7 +190,7 @@
         <div class="row row-grid align-items-center">
           <div class="col-md-6 order-lg-2 ml-lg-auto">
             <div class="position-relative pl-md-5">
-              <img src="img/ill/undraw_teaching_f1cm.svg" class="img-center img-fluid">
+              <img src="img/ill/undraw_science_fqhl.svg" class="img-center img-fluid">
             </div>
           </div>
           <div class="col-lg-6 order-lg-1">
@@ -200,9 +204,9 @@
                 <h4 class="display-3 text-white">
                   Our Mission
                 </h4>
-<!--                <p class="text-white">-->
-<!--                  We hope to change the country-->
-<!--                </p>-->
+                <!--                <p class="text-white">-->
+                <!--                  We hope to change the country-->
+                <!--                </p>-->
               </div>
             </div>
             <card shadow class="shadow-lg--hover mt-5">
@@ -219,7 +223,7 @@
                   <p>
                     Hands-on lab-based STEM education emphasizes real-world problem-solving, creativity, and skill-building empowering youth to engineer their homeland away from stubborn poverty.
                   </p>
-<!--                  <a href="#" class="text-success">Learn more</a>-->
+                  <!--                  <a href="#" class="text-success">Learn more</a>-->
                 </div>
               </div>
             </card>
@@ -237,7 +241,7 @@
                   <p>
                     Engineering skills complete a country's production value chain leading to more exports, less imports, and reduced dependency.
                   </p>
-<!--                  <a href="#" class="text-warning">Learn more</a>-->
+                  <!--                  <a href="#" class="text-warning">Learn more</a>-->
                 </div>
               </div>
             </card>
@@ -255,7 +259,7 @@
                   <p>
                     Pre-university STEM enrichment enhances education, competency, innovation, and careers on a national scale that "lifts all boats.
                   </p>
-<!--                  <a href="#" class="text-warning">Learn more</a>-->
+                  <!--                  <a href="#" class="text-warning">Learn more</a>-->
                 </div>
               </div>
             </card>
@@ -379,60 +383,60 @@
         </div>
       </div>
     </section>
-<!--    <section class="section section-shaped my-0 overflow-hidden">-->
-<!--      <div class="shape shape-style-3 bg-gradient-default shape-skew">-->
-<!--        <span />-->
-<!--        <span />-->
-<!--        <span />-->
-<!--        <span />-->
-<!--      </div>-->
-<!--      <div class="container pt-lg pb-300">-->
-<!--        <div class="row text-center justify-content-center">-->
-<!--          <div class="col-lg-10">-->
-<!--            <h2 class="display-3 text-white">-->
-<!--              Build something-->
-<!--            </h2>-->
-<!--            <p class="lead text-white">-->
-<!--              According to the National Oceanic and Atmospheric Administration,-->
-<!--              Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent-->
-<!--              tihs year down to low ice.-->
-<!--            </p>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="row row-grid mt-5">-->
-<!--          <div class="col-lg-4">-->
-<!--            <icon name="ni ni-settings" size="lg" gradient="white" shadow round color="primary" />-->
-<!--            <h5 class="text-white mt-3">-->
-<!--              Building tools-->
-<!--            </h5>-->
-<!--            <p class="text-white mt-3">-->
-<!--              Some quick example text to build on the card title and make up the-->
-<!--              bulk of the card's content.-->
-<!--            </p>-->
-<!--          </div>-->
-<!--          <div class="col-lg-4">-->
-<!--            <icon name="ni ni-ruler-pencil" size="lg" gradient="white" shadow round color="primary" />-->
-<!--            <h5 class="text-white mt-3">-->
-<!--              Grow your market-->
-<!--            </h5>-->
-<!--            <p class="text-white mt-3">-->
-<!--              Some quick example text to build on the card title and make up the-->
-<!--              bulk of the card's content.-->
-<!--            </p>-->
-<!--          </div>-->
-<!--          <div class="col-lg-4">-->
-<!--            <icon name="ni ni-atom" size="lg" gradient="white" shadow round color="primary" />-->
-<!--            <h5 class="text-white mt-3">-->
-<!--              Launch time-->
-<!--            </h5>-->
-<!--            <p class="text-white mt-3">-->
-<!--              Some quick example text to build on the card title and make up the-->
-<!--              bulk of the card's content.-->
-<!--            </p>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </section>-->
+    <!--    <section class="section section-shaped my-0 overflow-hidden">-->
+    <!--      <div class="shape shape-style-3 bg-gradient-default shape-skew">-->
+    <!--        <span />-->
+    <!--        <span />-->
+    <!--        <span />-->
+    <!--        <span />-->
+    <!--      </div>-->
+    <!--      <div class="container pt-lg pb-300">-->
+    <!--        <div class="row text-center justify-content-center">-->
+    <!--          <div class="col-lg-10">-->
+    <!--            <h2 class="display-3 text-white">-->
+    <!--              Build something-->
+    <!--            </h2>-->
+    <!--            <p class="lead text-white">-->
+    <!--              According to the National Oceanic and Atmospheric Administration,-->
+    <!--              Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent-->
+    <!--              tihs year down to low ice.-->
+    <!--            </p>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--        <div class="row row-grid mt-5">-->
+    <!--          <div class="col-lg-4">-->
+    <!--            <icon name="ni ni-settings" size="lg" gradient="white" shadow round color="primary" />-->
+    <!--            <h5 class="text-white mt-3">-->
+    <!--              Building tools-->
+    <!--            </h5>-->
+    <!--            <p class="text-white mt-3">-->
+    <!--              Some quick example text to build on the card title and make up the-->
+    <!--              bulk of the card's content.-->
+    <!--            </p>-->
+    <!--          </div>-->
+    <!--          <div class="col-lg-4">-->
+    <!--            <icon name="ni ni-ruler-pencil" size="lg" gradient="white" shadow round color="primary" />-->
+    <!--            <h5 class="text-white mt-3">-->
+    <!--              Grow your market-->
+    <!--            </h5>-->
+    <!--            <p class="text-white mt-3">-->
+    <!--              Some quick example text to build on the card title and make up the-->
+    <!--              bulk of the card's content.-->
+    <!--            </p>-->
+    <!--          </div>-->
+    <!--          <div class="col-lg-4">-->
+    <!--            <icon name="ni ni-atom" size="lg" gradient="white" shadow round color="primary" />-->
+    <!--            <h5 class="text-white mt-3">-->
+    <!--              Launch time-->
+    <!--            </h5>-->
+    <!--            <p class="text-white mt-3">-->
+    <!--              Some quick example text to build on the card title and make up the-->
+    <!--              bulk of the card's content.-->
+    <!--            </p>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </section>-->
     <hr class="my-5">
     <section class="section section-lg pt-lg-0 section-contact-us">
       <div class="container">
@@ -471,10 +475,10 @@
       <div class="container">
         <div class="row row-grid justify-content-center">
           <div class="col-lg-8 text-center">
-<!--            <h2 class="display-3">-->
-<!--              Our Partners-->
-<!--              <span class="text-success">Design System for Bootstrap 4?</span>-->
-<!--            </h2>-->
+            <!--            <h2 class="display-3">-->
+            <!--              Our Partners-->
+            <!--              <span class="text-success">Design System for Bootstrap 4?</span>-->
+            <!--            </h2>-->
             <div class="text-center">
               <h2 class="display-4 mb-5">
                 Our Partners
@@ -584,7 +588,5 @@
 
 <script>
 export default {
-  name: 'Welcome',
-  components: {}
 }
 </script>

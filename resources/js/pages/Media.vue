@@ -22,7 +22,9 @@
     <div class="container py-5">
       <div class="row mb-4">
         <div class="col-8">
-          <h3 class="font-weight-light">Check out our Youtube Channel</h3>
+          <h3 class="font-weight-light">
+            Check out our Youtube Channel
+          </h3>
         </div>
         <div class="col-4">
           <base-button tag="a" href="https://www.youtube.com/channel/UCuzT9QGaRilgE2JKbU9cUOA"
@@ -32,18 +34,21 @@
           </base-button>
         </div>
       </div>
+
       <gallery
         :images="images"
         :index="index"
         :options="{youTubeVideoIdProperty: 'youtube', youTubePlayerVars: undefined, youTubeClickToPlay: true}"
         @close="index = null"
       />
-      <div
-        v-for="image, imageIndex in images"
-        class="image"
-        :style="{ backgroundImage: 'url(' + image.poster + ')', width: '32.3%', height: '175px' }"
-        @click="index = imageIndex"
-      />
+      <div class="row">
+        <div
+          v-for="image, imageIndex in images"
+          class="image col-md-4 col-sm-12 p-4"
+          :style="{ backgroundImage: 'url(' + image.poster + ')', height: '175px' }"
+          @click="index = imageIndex"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -99,7 +104,6 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border: 1px solid #ebebeb;
-    margin: 5px;
+    border: 5px solid #FFFFFF;
   }
 </style>

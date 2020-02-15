@@ -1,4 +1,3 @@
-import Landing from '../pages/Landing2'
 import Profile from '../pages/Profile'
 import AppHeader from '../layouts/AppHeader'
 import AppFooter from '../layouts/AppFooter'
@@ -10,20 +9,21 @@ import News from '../pages/News'
 import Leadership from '../pages/Leadership'
 import Staff from '../pages/Staff'
 import Partners from '../pages/Partners'
+import Welcome from '../pages/Welcome'
 
 function page (path) {
   return () => import(/* webpackChunkName: '' */ `~/pages/${path}`).then(m => m.default || m)
 }
 
 export default [
-  // { path: '/', name: 'welcome', component: page('welcome.vue') },
+  // { path: '/', name: 'welcome', component: page('Welcome.vue') },
 
   {
     path: '/',
     name: 'welcome',
     components: {
       header: AppHeader,
-      default: Landing,
+      default: Welcome,
       footer: AppFooter
     }
   },
@@ -32,7 +32,7 @@ export default [
     name: 'about',
     components: {
       header: AppHeader,
-      default: About,
+      default: About
       // footer: AppFooter
     }
   },
