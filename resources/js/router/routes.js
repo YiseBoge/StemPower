@@ -1,24 +1,39 @@
-import Landing from '../pages/Landing'
+import Landing from '../pages/Landing2'
 import Profile from '../pages/Profile'
 import AppHeader from '../layouts/AppHeader'
 import AppFooter from '../layouts/AppFooter'
 import Login from '../pages/Login'
 import Register from '../pages/Register'
+import About from '../pages/About'
+import Media from '../pages/Media'
+import News from '../pages/News'
+import Leadership from '../pages/Leadership'
+import Staff from '../pages/Staff'
+import Partners from '../pages/Partners'
 
 function page (path) {
   return () => import(/* webpackChunkName: '' */ `~/pages/${path}`).then(m => m.default || m)
 }
 
 export default [
-  { path: '/', name: 'welcome', component: page('welcome.vue') },
+  // { path: '/', name: 'welcome', component: page('welcome.vue') },
 
   {
-    path: '/landing',
-    name: 'landing',
+    path: '/',
+    name: 'welcome',
     components: {
       header: AppHeader,
       default: Landing,
       footer: AppFooter
+    }
+  },
+  {
+    path: '/about',
+    name: 'about',
+    components: {
+      header: AppHeader,
+      default: About,
+      // footer: AppFooter
     }
   },
   {
@@ -46,6 +61,51 @@ export default [
       header: AppHeader,
       default: Profile,
       footer: AppFooter
+    }
+  },
+  {
+    path: '/news',
+    name: 'news',
+    components: {
+      header: AppHeader,
+      default: News
+      // footer: AppFooter
+    }
+  },
+  {
+    path: '/media',
+    name: 'media',
+    components: {
+      header: AppHeader,
+      default: Media
+      // footer: AppFooter
+    }
+  },
+  {
+    path: '/leadership',
+    name: 'leadership',
+    components: {
+      header: AppHeader,
+      default: Leadership
+      // footer: AppFooter
+    }
+  },
+  {
+    path: '/staff',
+    name: 'staff',
+    components: {
+      header: AppHeader,
+      default: Staff
+      // footer: AppFooter
+    }
+  },
+  {
+    path: '/partners',
+    name: 'partners',
+    components: {
+      header: AppHeader,
+      default: Partners
+      // footer: AppFooter
     }
   },
 

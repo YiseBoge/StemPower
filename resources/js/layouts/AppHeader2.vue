@@ -23,47 +23,39 @@
             <span class="nav-link-inner--text">Discover</span>
           </a>
           <div class="dropdown-menu-inner">
-            <router-link slot="list" class="media d-flex align-items-center" to="/about">
+            <a href="/about"
+               class="media d-flex align-items-center"
+            >
               <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
                 <i class="ni ni-badge" />
               </div>
               <div class="media-body ml-3">
-                <h6 class="heading text-success mb-md-1">
-                  About us
-                </h6>
-                <p class="description d-none d-md-inline-block mb-0">
-                  Get to know us better.
-                </p>
+                <h6 class="heading text-success mb-md-1">About us</h6>
+                <p class="description d-none d-md-inline-block mb-0">Get to know us better.</p>
               </div>
-            </router-link>
-
-            <router-link slot="list" class="media d-flex align-items-center" to="/news">
+            </a>
+            <a href="/news"
+               class="media d-flex align-items-center"
+            >
               <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
                 <i class="ni ni-single-copy-04" />
               </div>
               <div class="media-body ml-3">
-                <h5 class="heading text-warning mb-md-1">
-                  News
-                </h5>
-                <p class="description d-none d-md-inline-block mb-0">
-                  Keep up with our latest developments.
-                </p>
+                <h5 class="heading text-warning mb-md-1">News</h5>
+                <p class="description d-none d-md-inline-block mb-0">Keep up with our latest developments.</p>
               </div>
-            </router-link>
-
-            <router-link slot="list" class="media d-flex align-items-center" to="/media">
+            </a>
+            <a href="/media"
+               class="media d-flex align-items-center"
+            >
               <div class="icon icon-shape bg-gradient-danger rounded-circle text-white">
                 <i class="ni ni-button-play" />
               </div>
               <div class="media-body ml-3">
-                <h5 class="heading text-danger mb-md-1">
-                  Media
-                </h5>
-                <p class="description d-none d-md-inline-block mb-0">
-                  Explore our videos that announce our progress.
-                </p>
+                <h5 class="heading text-danger mb-md-1">Media</h5>
+                <p class="description d-none d-md-inline-block mb-0">Explore our videos that announce our progress.</p>
               </div>
-            </router-link>
+            </a>
           </div>
         </base-dropdown>
         <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">
@@ -73,7 +65,9 @@
             <span class="nav-link-inner--text">People</span>
           </a>
           <div class="dropdown-menu-inner">
-            <router-link slot="list" class="media d-flex align-items-center" to="/leadership">
+            <a href="/leadership"
+               class="media d-flex align-items-center"
+            >
               <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
                 <i class="ni ni-spaceship" />
                 <!--                <i class="fa fa-user-circle d-lg-none"/>-->
@@ -82,9 +76,10 @@
                 <h6 class="heading text-primary mb-md-1">Leadership</h6>
                 <p class="description d-none d-md-inline-block mb-0">Our leaders keeping us up.</p>
               </div>
-            </router-link>
-
-            <router-link slot="list" class="media d-flex align-items-center" to="/staff">
+            </a>
+            <a href="/staff"
+               class="media d-flex align-items-center"
+            >
               <div class="icon icon-shape bg-gradient-default rounded-circle text-white">
                 <!--                <i class="ni ni-ui-04" />-->
                 <i class="fa fa-users" />
@@ -93,9 +88,10 @@
                 <h5 class="heading text-default mb-md-1">Staff</h5>
                 <p class="description d-none d-md-inline-block mb-0">The backbones of our operations.</p>
               </div>
-            </router-link>
-
-            <router-link slot="list" class="media d-flex align-items-center" to="/partners">
+            </a>
+            <a href="/partners"
+               class="media d-flex align-items-center"
+            >
               <div class="icon icon-shape bg-gradient-info rounded-circle text-white">
                 <!--                <i class="ni ni-ui-04" />-->
                 <i class="fa fa-handshake-o" />
@@ -104,7 +100,7 @@
                 <h5 class="heading text-info mb-md-1">Partners</h5>
                 <p class="description d-none d-md-inline-block mb-0">Supporters of our cause.</p>
               </div>
-            </router-link>
+            </a>
           </div>
         </base-dropdown>
         <!--        <div class="nav-item">-->
